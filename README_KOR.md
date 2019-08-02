@@ -11,11 +11,11 @@
 
 2. Jlsca 설치 및 확인
  * Jlsca 소스코드 다운 후 압축풀기
- * Julia 실행하여 다음 명령어 수행 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/Riscure/Jlsca"))'
+ * Julia 실행하여 다음 명령어 수행 [using Pkg; Pkg.add(PackageSpec(url="https://github.com/Riscure/Jlsca"))]
  ![Jlsca 설치](https://github.com/aasdzs/Jlsca/blob/master/captures/02_install_Jlsca.PNG?raw=true)
  * CMD 창에서 Jlsca 설치 경로로 이동하여 예제 동작 확인
    - Jlsca 설치 경로 예시 (I:\Jlsca-master)
-   - 예제 동작 명령어 수행 'julia examples/main-condavg.jl aestraces/aes128_sb_ciph_0fec9ca47fb2f2fd4df14dcb93aa4967.trs'
+   - 예제 동작 명령어 수행 [julia examples/main-condavg.jl aestraces/aes128_sb_ciph_0fec9ca47fb2f2fd4df14dcb93aa4967.trs]
   ![예제 실행 화면 1](https://github.com/aasdzs/Jlsca/blob/master/captures/03_execute_Jlsca_example-1.PNG?raw=true)
   ![예제 실행 화면 2](https://github.com/aasdzs/Jlsca/blob/master/captures/04_execute_Jlsca_example-2.PNG?raw=true)
    - 현재 다른 예제들은 에러 발생함 (추후 검토 예정)
